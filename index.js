@@ -9,6 +9,6 @@ btn.addEventListener("click", (e) => {
 			  .then(() => console.log('Successful share'))
 			  .catch((error) => console.log('Error sharing', error));
 	} else {
-		alert("Share not allowed!")
+		alert("Share not allowed! 1")
 	  }
 })
