@@ -4,7 +4,6 @@ btn.addEventListener("click", (e) => {
 		  navigator.share({
 			  title: "Know all about Sector 78 on 99acres",
 			  text: "Know all about Sector 78 on 99acres https://www.99acres.com/property-investment-in-sector-78-noida-piffid",
-			  url: `https://www.99acres.com/property-investment-in-sector-78-noida-piffid`,
 		  })
 			  .then(() => console.log('Successful share'))
 			  .catch((error) => console.log('Error sharing', error));
